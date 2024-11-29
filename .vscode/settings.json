@@ -1,0 +1,21 @@
+{
+    "terminal.integrated.profiles.windows": {
+        
+        "MSYS2_USER": {
+            "path": "C:\\msys64\\msys2_shell.cmd",
+            "label": "MSYS2",
+            "args": [
+                "-full-path",
+                "-here",
+                "-defterm",
+                "-no-start",
+                "-msys"
+            ],
+            "icon": "terminal-bash",
+            "env": {
+                "MSYSTEM": "MINGW64",
+                "CHERE_INVOKING": "1"
+            }
+        },
+    }
+}
