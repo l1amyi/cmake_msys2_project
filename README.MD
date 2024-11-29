@@ -101,9 +101,11 @@ pacman -Syy
 pacman -Syu
 pacman -Sc
 ```
-4. 安装gcc
+4. 安装gcc cmake make
 ```
 pacman -S --needed ucrt64/mingw-w64-ucrt-x86_64-gcc
+pacman -S cmake
+pacman -S make
 ```
 
 # 其他
