@@ -1,7 +1,7 @@
 {
     "terminal.integrated.profiles.windows": {
         
-        "MSYS2_USER": {
+        "MSYS2": {
             "path": "C:\\msys64\\msys2_shell.cmd",
             "label": "MSYS2",
             "args": [
@@ -9,11 +9,43 @@
                 "-here",
                 "-defterm",
                 "-no-start",
-                "-msys"
+                "-msys",
             ],
             "icon": "terminal-bash",
             "env": {
                 "MSYSTEM": "MINGW64",
+                "CHERE_INVOKING": "1"
+            }
+        },
+        "MSYS2_MINGW64": {
+            "path": "C:\\msys64\\msys2_shell.cmd",
+            "label": "MSYS2",
+            "args": [
+                "-full-path",
+                "-here",
+                "-defterm",
+                "-no-start",
+                "-mingw64"
+            ],
+            "icon": "terminal-bash",
+            "env": {
+                "MSYSTEM": "MINGW64",
+                "CHERE_INVOKING": "1"
+            }
+        },
+        "MSYS2_UCRT64": {
+            "path": "C:\\msys64\\msys2_shell.cmd",
+            "label": "MSYS2",
+            "args": [
+                "-full-path",
+                "-here",
+                "-defterm",
+                "-no-start",
+                "-ucrt64"
+            ],
+            "icon": "terminal-bash",
+            "env": {
+                "MSYSTEM": "UCRT64",
                 "CHERE_INVOKING": "1"
             }
         },
