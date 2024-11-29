@@ -95,6 +95,16 @@ include
 
 1. 下载 [MSYS2](https://github.com/msys2/msys2-installer/releases/download/2024-11-16/msys2-x86_64-20241116.exe) [VSCODE](https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user)。
 2. MSYS2安装路径默认。
+3. 更新pacman
+```
+pacman -Syy
+pacman -Syu
+pacman -Sc
+```
+4. 安装gcc
+```
+pacman -S --needed ucrt64/mingw-w64-ucrt-x86_64-gcc
+```
 
 # 其他
 
